@@ -1,3 +1,8 @@
+body{
+  background-color: #F3DFC1;
+}
+
+
 .upclose-work {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -12,9 +17,30 @@
     border-radius: 8px;
 }
 
+.image-box {
+  background-color: #CB769E;
+  padding: 20px;
+  border: 10px solid #CB769E;
+}
+
 .text-area {
     margin-top: 0;
     align-self: start;
+  }
+
+  .text-area h1{
+    font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #478978;
+  }
+
+  .text-area{
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #51344D; 
   }
 
 
@@ -36,7 +62,20 @@
 
 .links a{
     text-decoration: none;
-}
+        font-family: "Indie Flower", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+        color: aliceblue;
+        background-color: #B02E0C;
+        padding: 10px 20px;
+        border-radius: 8px;
+      }
+
+      .links a:hover {
+        background-color:#51344D;
+      }
+
 
 .container {
     width: 100%;
@@ -94,11 +133,19 @@
     object-fit: cover;
     aspect-ratio: 1 / 1;
     border-radius: 8px;
+    border: 3px dashed #B02E0C
   }
 
   .project-gallary{
     margin-top: 300px;
     margin-bottom: 200px;
+  }
+
+  .project-gallary img {
+    border: 3px groove #478978; 
+    border-radius: 8px;        
+    padding: 4px;              
+    background-color: #478978;    
   }
 
   
@@ -111,9 +158,21 @@
     margin-right: 50px;
   }
   
-  .Lunapetunia-1{}
+  .Lunapetunia-1 p{
+      font-family: "Indie Flower", cursive;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 40px;
+    
+    
+  }
 
-  .Lunapetunia-2{}
+  .Lunapetunia-2 p {
+    font-family: "Coral Pixels", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+  }
 
   .statement-p {
     line-height: 1.5;
@@ -123,17 +182,57 @@
     display: flex;
     align-items: center;
     gap: 40px;
-    margin: 40px auto;   
+    margin: 30px auto;   
     flex-wrap: wrap; 
     justify-content: center; 
   }
 
-  .Meet {
+  .Meet h1{
     text-align: center;
     width: 100%;
     margin-top: 100px;
+    font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #478978;
   }
 
   .statement{
     align-self:start;
   }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+  }
+
+  .contact-form h1{
+    font-family: "Indie Flower", cursive;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 40px;
+      }
+
+      footer{
+        text-align: center;
+      margin-top: auto;
+      background-color: #51344D;
+      color: aliceblue;
+      }
