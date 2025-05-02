@@ -1,1 +1,139 @@
-/* Place CSS styles here */
+.upclose-work {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+  align-items: center;
+  padding: 2rem;
+  margin-top: 14rem;
+  margin-bottom: 20rem;
+}
+
+.image-area img {
+    border-radius: 8px;
+}
+
+.text-area {
+    margin-top: 0;
+    align-self: start;
+  }
+
+
+.links{
+    position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  
+}
+
+.links ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1.5rem;
+}
+
+.links a{
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+  }
+
+  .carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .carousel::-webkit-scrollbar {
+    display: none;
+  }
+
+  .gallery-cell {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    width: 200px;
+    height: 200px;
+  }
+
+  .gallery-cell img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+  }
+
+  .project-gallary ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .project-gallary li {
+    display: flex;
+    justify-content: center;
+  }
+
+  .project-gallary img:hover {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    border-radius: 8px;
+  }
+
+  .project-gallary{
+    margin-top: 300px;
+    margin-bottom: 200px;
+  }
+
+  
+
+  .luna-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 50px;
+  }
+  
+  .Lunapetunia-1{}
+
+  .Lunapetunia-2{}
+
+  .statement-p {
+    line-height: 1.5;
+  }
+
+  .aboutt {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 40px auto;   
+    flex-wrap: wrap; 
+    justify-content: center; 
+  }
+
+  .Meet {
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  .statement{
+    align-self:start;
+  }
