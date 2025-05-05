@@ -200,6 +200,12 @@ body{
 
   .statement{
     align-self:start;
+    
+      font-family: "Indie Flower", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+      
   }
 
   .contact-form {
@@ -232,7 +238,68 @@ body{
 
       footer{
         text-align: center;
-      margin-top: auto;
+      margin-top: 40px;
       background-color: #51344D;
       color: aliceblue;
+      }
+
+      h2{
+        font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #478978;
+      }
+
+      h3{
+        font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #478978;
+      }
+
+      .socials a {
+        display: block;
+        margin: 10px 0;
+        color: #478978;
+        text-decoration: none;
+      }
+
+      header {
+        text-align: center;
+        padding: 20px;
+        background-color: #CB769E;
+        color: aliceblue;
+      }
+
+      header h1{
+        font-family: "Unbounded", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        font-size: 20px;
+      }
+
+      .projects, .story, .socials {
+        padding: 20px;
+        margin: 90px;
+        background-color:#478978
+        
+      }
+
+      .socials a, .story h2, .socials h2, .story p {
+        font-family: "Indie Flower", cursive;
+        font-weight: 400;
+        font-style: normal;
+        color: aliceblue; 
+        display: block;
+      margin: 10px 0;
+      }
+
+      .projects p{
+        font-family: "Indie Flower", cursive;
+        font-weight: 400;
+        font-style: normal;
+        color: aliceblue;
       }
